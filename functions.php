@@ -11,5 +11,8 @@ function flat_parent_theme_enqueue_styles() {
 
 }
 
+// Debug functions
+include( 'includes/debug.php' );
+
 // Shortcodes
 include( 'includes/shortcodes.php' );
