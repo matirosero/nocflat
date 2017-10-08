@@ -99,10 +99,10 @@ p {
 	padding: 0;
 }
 big {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 	font-size: 1.5em;
 	line-height: 1.5em;
-	font-weight: normal;
+	font-weight: bold;
 }
 small {
 	font-size: 87%;
@@ -132,8 +132,8 @@ li {
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1.5em;
 	margin: 0 0 1.4em;
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: normal;
+	font-family: $font-family;
+	font-weight: bold;
 	color: #000;
 	word-wrap: normal;
 }
@@ -166,7 +166,7 @@ h6 {
 /* form input */
 input, textarea, select, input[type=search], button {
 	font-size: 120%;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 }
 input[type=text], input[type=password], textarea, input[type=search], input[type=email] {
 	background-color: #eee;
@@ -350,10 +350,10 @@ SITE LOGO
 ================================================ */
 #site-logo {
 	line-height: 110%;
-	font-family: 'Josefin Sans', sans-serif; 
+	font-family: $font-family; 
 	font-size: 2.5em;
 	text-transform: uppercase;
-	font-weight: normal;
+	font-weight: bold;
 	padding: 65px 0 30px;
 	margin: 0;
 }
@@ -369,7 +369,7 @@ SITE LOGO
 SITE DESCRIPTION
 ================================================ */
 #site-description {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 	font-size: 1.125em;
 	margin: 0 0 30px 0;
 	line-height: 110%;
@@ -532,7 +532,7 @@ MAIN NAVIGATION
 	color: #8d6f00;
 	display: block;
 	padding: 10px 20px 7px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 	font-size: 1.1em;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -816,7 +816,7 @@ PROGRESS BAR
 	margin: 0 0 12px;
 	border-radius: 5px;
 	text-align: left;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 	color: #000;
 	position: relative;
 }
@@ -867,7 +867,7 @@ TIMELINE POST TYPE
 }
 .timeline .timeline-date {
 	font-weight: normal;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 	font-size: 2em;
 	color: #000;
 	text-align: right;
@@ -893,7 +893,7 @@ TIMELINE POST TYPE
 	font-size: 1.4em;
 	line-height: 1.5;
 	margin-top: 1.3%;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 }
 
 
@@ -931,7 +931,7 @@ TESTIMONIAL POST TYPE
 	overflow: hidden;
 }
 .testimonial .post-content {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 	font-size: 1.125em;
 	line-height: 1.6;
 }
@@ -1045,7 +1045,7 @@ PAGE NAVIGATION
 *************************************************************************************/
 .pagenav {
 	clear: both;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 	font-size: 1.5em;
 	text-align: center;
 	margin-bottom: 8%;
@@ -1125,7 +1125,7 @@ POST
 .post-meta {
 	margin: 0 0 5px;
 	color: #999;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 	text-transform: uppercase;
 	font-size: .85em;
 	line-height: 1.4em;
@@ -1141,7 +1141,7 @@ POST
 /* post date */
 .post-date {
 	display: block;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 	color: #999;
 	text-transform: uppercase;
 	font-size: 1.2em;
@@ -1308,7 +1308,7 @@ AUTHOR BOX
 	box-shadow: none;
 }
 .author-box .author-name {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 	margin: 0 0 5px;
 	color: #000;
 	text-transform: uppercase;
@@ -1346,7 +1346,7 @@ POST NAVIGATION
 }
 .post-nav a {
 	text-transform: uppercase;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 	color: #000;
 	font-size: 1.5em;
 	text-decoration: none;
@@ -1367,7 +1367,7 @@ POST NAVIGATION
 .post-nav .arrow {
 	background-color: #fc0;
 	color: #fff;
-	font: .8em/100% 'Josefin Sans', sans-serif !important;
+	font: .8em/100% $font-family !important;
 	display: block;
 	width: auto;
 	float: left;
@@ -1405,10 +1405,10 @@ COMMENTS
 	font-size: 140%;
 	margin: 0 0 20px;
 	padding: 0;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 	color: #000;
 	text-transform: uppercase;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 /* comment pagenav */
@@ -1446,7 +1446,7 @@ COMMENTS
 	margin: 0 25px 0 0;
 }
 .commentlist cite {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 	text-transform: uppercase;
 	color: #000;
 	font-style: normal;
@@ -1489,7 +1489,7 @@ COMMENTS
 	border-radius: 5px;
 	color: #999;
 	padding: 5px 5px 3px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 }
 .commentlist .comment-reply-link:hover {
 	text-decoration: none;
@@ -1517,7 +1517,7 @@ COMMENT FORM
 	color: #fff;
 	border-radius: 5px;
 	background-color: #fc0;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 	text-transform: uppercase;
 }
 #respond #cancel-comment-reply-link:hover {
@@ -1532,7 +1532,7 @@ COMMENT FORM
 }
 #commentform label {
 	font-weight: normal;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 }
 #commentform label small {
 	font-weight: normal;
@@ -1603,7 +1603,7 @@ SLIDESHOW
 	width: 46px;
 	height: 50px;
 	display: block;
-	font: 4em/100% 'Josefin Sans', sans-serif !important;
+	font: 4em/100% $font-family !important;
 	background-color: transparent;
 	border: none;
 	box-shadow: none;
@@ -1716,11 +1716,11 @@ SIDEBAR
 .widgettitle a {
 	margin: 0 0 15px;
 	padding: 0;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 	text-transform: uppercase;
 	color: #000;
 	text-decoration: none;
-	font-weight: normal;
+	font-weight: bold;
 }
 .widgettitle a:hover {
 	color: #ccc;
@@ -1751,7 +1751,7 @@ WIDGET STYLES
 /* calendar widget */
 .widget #wp-calendar caption {
 	padding-bottom: 10px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 	text-transform: uppercase;
 	color: #000;
 }
@@ -2097,7 +2097,7 @@ a.shortcode.button {
 	color: #fff;
 	letter-spacing: .1em;
 	padding: 10px 20px 8px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 	text-transform: uppercase;
 	background-color: #f06544;
 	border: none;
@@ -2365,9 +2365,9 @@ BUILDER
 .module-menu ul li,
 .module-tab .tab-nav > li > a,
 .module-accordion .accordion-title {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 	color: #000;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 /* POST */
@@ -2388,9 +2388,9 @@ BUILDER
 	border: none;
 	font-size: 2.9em;
 	text-transform: none;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: $font-family;
 	color: #000;
-	font-weight: normal;
+	font-weight: bold;
 	line-height: 1.3;
 }
 .col-full .module-image .image-content {

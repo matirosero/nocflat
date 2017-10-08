@@ -1,0 +1,14 @@
+$font-family: Roboto, Helvetica, Arial, sans-serif;
+
+$colors: (
+	'aqua': #048398,
+	'yellow': #ffbf00,
+	'purple': #76017d,
+	'green': #99cf16,
+	'magenta': #d11b7d,
+	'red': #f80140,
+	);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}

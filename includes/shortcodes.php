@@ -56,18 +56,18 @@ function noc_pricing_table_shortcode($atts) {
 	    <tfoot>
 	    	<tr>
 	    		<th>&nbsp;</th>
-	    		<td><a href="#">Start a free trial</a></td>
-	    		<td><a href="#">Start a free trial</a></td>
-	    		<td><a href="#">Start a free trial</a></td>
+	    		<td><a href="#">Más información</a></td>
+	    		<td><a href="#">Más información</a></td>
+	    		<td><a href="#">Más información</a></td>
 	    	</tr>
 	    </tfoot>
 
 	    <tbody>
-	    	<tr>
+	    	<tr class="table-subcat">
 	    		<th>Tablero principal</th>
-	    		<td></td>
-	    		<td></td>
-	    		<td></td>
+		    	<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
 	    	</tr>
 	    	<tr>
 	    		<th>Fotografía Personalizada o Video</th>
@@ -99,12 +99,164 @@ function noc_pricing_table_shortcode($atts) {
 	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
 	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
 	    	</tr>
+
 	    	<tr>
 	    		<th>Logo del proyecto</th>
 		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
 	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
 	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
 	    	</tr>
+	    	<tr>
+	    		<th>Descripción corta del proyecto</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    	</tr>
+	    	<tr>
+	    		<th>Botón de contacto</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    	</tr>
+	    	<tr>
+	    		<th>Compartir en redes sociales</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    	</tr>
+	    	<tr>
+	    		<th>Comentarios</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    	</tr>
+	    	<tr>
+	    		<th>Desarrollador</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    	</tr>
+	    	<tr class="table-subcat">
+	    		<th>Tablero individual del proyecto</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    	</tr>
+
+	    	<tr>
+	    		<th>Fotografía Ampliada o Video</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td>Fotografía 800x800px</td>
+	    		<td>Fotografía 800x1200px o video (YouTube/Vimeo)</td>
+	    	</tr>
+	    	<tr>
+		    	<th>Nombre y logo del proyecto</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    	</tr>
+	    	<tr>
+		    	<th>Nombre y logo del desarrollador</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    	</tr>
+
+	    	<tr>
+		    	<th>Información</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    	</tr>
+
+	    	<tr>
+		    	<th>Tipos</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    	</tr>
+
+	    	<tr>
+		    	<th>Amenidades</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    	</tr>
+
+	    	<tr>
+		    	<th>Tamaños</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    	</tr>
+
+	    	<tr>
+		    	<th>Precio</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    	</tr>
+
+	    	<tr>
+		    	<th>Financiamiento</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    	</tr>
+
+	    	<tr>
+		    	<th>Status, avance o desarrollo</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    	</tr>
+
+	    	<tr>
+		    	<th>Fecha de entrega</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    	</tr>
+
+	    	<tr>
+		    	<th>Botón de contacto</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    	</tr>
+
+	    	<tr>
+		    	<th>Mapa</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    	</tr>
+
+	    	<tr>
+		    	<th>Dirección Waze</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    	</tr>
+
+	    	<tr>
+		    	<th>Fotografías adicionales</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td>10</td>
+	    		<td>20</td>
+	    	</tr>
+
+	    	<tr>
+		    	<th>PDF Descargable</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    	</tr>
+	    	<tr>
+		    	<th>Estadísticas de visitación</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
 	    	</tr>
 	    </tbody>
 
