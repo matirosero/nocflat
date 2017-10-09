@@ -1,4 +1,6 @@
-table {
+.table-outer { overflow-x: scroll; }
+
+.pricing-table {
 	width: 100%;
 	text-align: left;
 	border-spacing: 0;
@@ -15,6 +17,11 @@ table {
 	}
 	.fa-times {
 		color: color( 'red' );
+	}
+
+	@media only screen and (max-width:710px) {
+		table-layout: fixed; margin:0px auto 0px auto;
+		    min-width: 640px;
 	}
 }
 

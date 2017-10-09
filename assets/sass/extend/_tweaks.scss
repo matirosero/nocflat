@@ -1,0 +1,16 @@
+.charact-img {
+	.image-wrap {
+		padding-top: 40px;
+	}
+	@media only screen and (max-width:760px) {
+		.image-wrap {
+			float:none !important;
+			margin: 0 20px !important;
+			text-align: center !important;
+			display: block !important;
+		}
+		.image-content {
+			text-align: left !important;
+		}
+	}
+}

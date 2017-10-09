@@ -27,7 +27,8 @@ function noc_pricing_table_shortcode($atts) {
     // ), $atts));
 
 
-    $table = '<table>
+    $table = '<div class="table-outer">
+    <table class="pricing-table">
 
 		<colgroup></colgroup>
 		<colgroup></colgroup>
@@ -260,7 +261,8 @@ function noc_pricing_table_shortcode($atts) {
 	    	</tr>
 	    </tbody>
 
-	</table>';
+	</table>
+	</div>';
 
 
     return $table;
