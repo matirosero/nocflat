@@ -14,3 +14,20 @@
 		}
 	}
 }
+
+.timeline {
+	.timeline-content-wrap {
+		width: 60%;
+	}
+	.timeline-date {
+		width: 25%;
+	}
+	.timeline-dot {
+		left: 30.7%;
+	}
+	ul {
+		&:before {
+			left: 32%;
+		}
+	}
+}

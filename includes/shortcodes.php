@@ -7,6 +7,7 @@
  */
 function register_shortcodes() {
     add_shortcode('pricing-table', 'noc_pricing_table_shortcode');
+    add_shortcode('priority-keys-table', 'noc_priority_keys_shortcode');
 }
 add_action( 'init', 'register_shortcodes' );
 
@@ -17,15 +18,6 @@ add_action( 'init', 'register_shortcodes' );
  * Returns pricing table html
  */
 function noc_pricing_table_shortcode($atts) {
-    // global $wp_query,
-    //     $post;
-
-    // extract(shortcode_atts(array(
-    //     'show' => 10,
-    //     'inline' => 'no',
-    //     'images' => 'no',
-    // ), $atts));
-
 
     $table = '<div class="table-outer">
     <table class="pricing-table">
@@ -40,16 +32,16 @@ function noc_pricing_table_shortcode($atts) {
 	    		<th>&nbsp;</th>
 	    		<th>
 	    			<h3>Paquete Gratuito Default</h3>
-	    			<p>¡Gratis!</p>
+	    			<p>$9/tablero por mes</p>
 	    		</th>
 	    		<th>
 	    			<h3>Paquete Básico Noc Noc</h3>
-	    			<p>$29/mes</p>
+	    			<p>$29/tablero por mes</p>
 	    			<!-- <p class="promo">Our most valuable package!</p> -->
 	    		</th>
 	    		<th>
 	    			<h3>Paquete Premium Noc Noc Noc</h3>
-	    			<p>$39/mes</p>
+	    			<p>$39/tablero por mes</p>
 	    		</th>
 	    	</tr>
 	    </thead>
@@ -57,9 +49,9 @@ function noc_pricing_table_shortcode($atts) {
 	    <tfoot>
 	    	<tr>
 	    		<th>&nbsp;</th>
-	    		<td><a href="#">Más información</a></td>
-	    		<td><a href="#">Más información</a></td>
-	    		<td><a href="#">Más información</a></td>
+	    		<td><a href="/productos/paquete-basico-noc/">Más información</a></td>
+	    		<td><a href="/productos/paquete-premiun-noc-noc/">Más información</a></td>
+	    		<td><a href="/productos/paquete-super-premiun-noc-noc-noc/">Más información</a></td>
 	    	</tr>
 	    </tfoot>
 
@@ -259,6 +251,79 @@ function noc_pricing_table_shortcode($atts) {
 	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
 	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
 	    	</tr>
+	    	<tr>
+		    	<th>Tablero de desarrollador
+		    		<br /><a href="#desarrollador">Más información</a>
+		    	</th>
+		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td>Por la suscripción de 4 o más tableros*</td>
+	    	</tr>
+	    	<tr>
+		    	<th>Priority Keys
+		    		<br /><a href="#priority-keys">Más información</a>
+		    	</th>
+		    	<td>Accesibles por $15, $20 o $25</td>
+	    		<td>Accesibles por $15, $20 o $25</td>
+	    		<td>Accesibles por $15, $20 o $25</td>
+	    	</tr>
+	    </tbody>
+
+	</table>
+	</div>';
+
+
+    return $table;
+
+
+}
+
+
+/*
+ * Priority keys table callback
+ * - [priority-keys-table]
+ *
+ * Returns priority keys table html
+ */
+function noc_priority_keys_shortcode($atts) {
+
+    $table = '<div class="table-outer">
+    <table class="pricing-table priority-keys">
+
+		<colgroup></colgroup>
+		<colgroup></colgroup>
+		<colgroup></colgroup>
+
+	    <thead>
+	    	<tr>
+	    		<th>
+	    			<h3>Llave Platino</h3>
+	    			<p>$25/tablero por mes</p>
+	    		</th>
+	    		<th>
+	    			<h3>Llave Oro</h3>
+	    			<p>$20/tablero por mes</p>
+	    		</th>
+	    		<th>
+	    			<h3>Llave plata</h3>
+	    			<p>$15/tablero por mes</p>
+	    		</th>
+	    	</tr>
+	    </thead>
+
+	    <tfoot>
+	    	<tr>
+	    		<td colspan="3">Se pueden adquirir al comprar la membresía seleccionada</td>
+	    	</tr>
+	    </tfoot>
+
+	    <tbody>
+	    	<tr class="table-subcat">
+		    	<td>Posiciona el proyecto en los primeros lugares de los tableros</td>
+	    		<td>Posiciona el proyecto tras proyectos platino en los tableros</td>
+	    		<td>Posiciona el proyecto tras proyectos oro los tableros</td>
+	    	</tr>
+
 	    </tbody>
 
 	</table>

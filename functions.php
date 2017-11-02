@@ -18,4 +18,10 @@ include( 'includes/debug.php' );
 include( 'includes/enqueue.php' );
 
 // Shortcodes
+include( 'includes/edd-functions.php' );
+
+// Shortcodes
 include( 'includes/shortcodes.php' );
+
+// functions override
+include( 'includes/theme-functions-override.php' );

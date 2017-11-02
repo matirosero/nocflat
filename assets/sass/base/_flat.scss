@@ -229,6 +229,10 @@ STRUCTURE
 	width: 1064px;
 	max-width: 100%;
 	margin: 0 auto;
+
+	#headerwrap & {
+		width: auto;
+	}
 }
 
 /* body (middle container) */
