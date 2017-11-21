@@ -17,7 +17,7 @@ include( 'includes/debug.php' );
 // Enqueue functions
 include( 'includes/enqueue.php' );
 
-// Shortcodes
+// EDD functions
 include( 'includes/edd-functions.php' );
 
 // Shortcodes
@@ -25,3 +25,7 @@ include( 'includes/shortcodes.php' );
 
 // functions override
 include( 'includes/theme-functions-override.php' );
+
+
+// Noc functions
+include( 'includes/noc-functions.php' );
