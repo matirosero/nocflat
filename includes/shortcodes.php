@@ -65,6 +65,7 @@ function noc_presale_table_shortcode($atts) {
 						<li>Participación en Nocnoc en 4 tableros gratis (marzo 2018)</li>
 						<li>1 publicación mensual en FB de Nocnoc por 4 meses (diciembre, enero, febrero, marzo)</li>
 						<li>Llave plata para participar en las terceras posiciones de cada tablero. </li>
+						<li><a href="/paquetes/">Más información sobre los paquetes</a></li>
 
 		    		</ul>
 		    	</td>
@@ -76,6 +77,7 @@ function noc_presale_table_shortcode($atts) {
 						<li>2 publicaciones mensuales en FB de Nocnoc por 4 meses (diciembre, enero, febrero, marzo)</li>
 						<li>1 artículo patrocinado en FB.
 						<li>Llave oro para participar en las segundas posiciones de cada tablero.</li>
+						<li><a href="/paquetes/">Más información sobre los paquetes</a></li>
 
 		    		</ul>
 	    		</td>
@@ -87,6 +89,7 @@ function noc_presale_table_shortcode($atts) {
 						<li>4 publicaciones mensuales en FB de Nocnoc por 3 meses (diciembre, enero, febrero, marzo)</li>
 						<li>2 artículos patrocinados en FB.</li>
 						<li>Llave platinum para participar en las primeras posiciones de cada tablero.</li>
+						<li><a href="/paquetes/">Más información sobre los paquetes</a></li>
 
 		    		</ul>
 	    		</td>
@@ -139,8 +142,8 @@ function noc_pricing_table_shortcode($atts) {
 	    	<tr>
 	    		<th>&nbsp;</th>
 	    		<td><a href="/orden-de-compra/?paquete=PreventaBasico69USD">Comprar</a></td>
-	    		<td><a href="/orden-de-compra/?paquete=PreventaBasico69USD">Comprar</a></td>
-	    		<td><a href="/orden-de-compra/?paquete=PreventaBasico69USD">Comprar</a></td>
+	    		<td><a href="/orden-de-compra/?paquete=PreventaPremium169USD">Comprar</a></td>
+	    		<td><a href="/orden-de-compra/?paquete=PreventaSuperPremium189USD">Comprar</a></td>
 	    	</tr>
 	    </tfoot>
 
