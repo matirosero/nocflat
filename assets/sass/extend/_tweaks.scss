@@ -31,3 +31,35 @@
 		}
 	}
 }
+
+.inforgraphic-row {
+	position: relative;
+	clear: both;
+	.infographic {
+		text-align: center;
+		padding: 0 20px;
+		img {
+		}
+	}
+
+	@media only screen and (min-width: 700px) {
+		h3,
+		.infographic {
+			width: 45%;
+		}
+		h3 {
+			float: left;
+		}
+		.infographic {
+			float: right;
+		}
+	}
+	@media only screen and (min-width: 960px) {
+		h3 {
+			width: 60%;
+		}
+		.infographic {
+			width: 33%;
+		}
+	}
+}
