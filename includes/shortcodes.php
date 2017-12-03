@@ -50,9 +50,9 @@ function noc_presale_table_shortcode($atts) {
 
 	    <tfoot>
 	    	<tr>
-	    		<td><a href="/productos/paquete-basico-noc/">Más información</a></td>
-	    		<td><a href="/productos/paquete-premiun-noc-noc/">Más información</a></td>
-	    		<td><a href="/productos/paquete-super-premiun-noc-noc-noc/">Más información</a></td>
+	    		<td><a href="/orden-de-compra/?paquete=PreventaBasico69USD">Comprar</a></td>
+	    		<td><a href="/orden-de-compra/?paquete=PreventaPremium169USD">Comprar</a></td>
+	    		<td><a href="/orden-de-compra/?paquete=PreventaSuperPremium189USD">Comprar</a></td>
 	    	</tr>
 	    </tfoot>
 
@@ -138,9 +138,9 @@ function noc_pricing_table_shortcode($atts) {
 	    <tfoot>
 	    	<tr>
 	    		<th>&nbsp;</th>
-	    		<td><a href="/productos/paquete-basico-noc/">Más información</a></td>
-	    		<td><a href="/productos/paquete-premiun-noc-noc/">Más información</a></td>
-	    		<td><a href="/productos/paquete-super-premiun-noc-noc-noc/">Más información</a></td>
+	    		<td><a href="/orden-de-compra/?paquete=PreventaBasico69USD">Comprar</a></td>
+	    		<td><a href="/orden-de-compra/?paquete=PreventaBasico69USD">Comprar</a></td>
+	    		<td><a href="/orden-de-compra/?paquete=PreventaBasico69USD">Comprar</a></td>
 	    	</tr>
 	    </tfoot>
 
