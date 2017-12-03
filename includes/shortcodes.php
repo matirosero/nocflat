@@ -31,19 +31,19 @@ function noc_presale_table_shortcode($atts) {
 	    	<tr>
 	    		<th>
 	    			<h3>Paquete Básico Noc</h3>
-	    			<p>$69 mensuales 2+4
-	    				<br />Ahorra $228</p>
+	    			<p>$69 mensuales 2+4</p>
+	    			<p class="save">Ahorre $228</p>
 	    		</th>
 	    		<th>
 	    			<h3>Paquete Premium Noc Noc</h3>
-	    			<p>$169 mensuales 5+4
-	    			<br />Ahorra $318</p>
+	    			<p>$169 mensuales 5+4</p>
+	    			<p class="save">Ahorre $318</p>
 	    			<!-- <p class="promo">Our most valuable package!</p> -->
 	    		</th>
 	    		<th>
 	    			<h3>Paquete Super Premium Noc Noc Noc</h3>
-	    			<p>$189 mensuales 10+4
-	    			<br />Ahorra $488</p>
+	    			<p>$189 mensuales 10+4</p>
+	    			<p class="save">Ahorre $488</p>
 	    		</th>
 	    	</tr>
 	    </thead>
