@@ -30,19 +30,22 @@ function noc_presale_table_shortcode($atts) {
 	    <thead>
 	    	<tr>
 	    		<th>
+	    			<span class="label">Suscripción mensual</span>
 	    			<h3>Paquete Básico Noc</h3>
 	    			<p>$69 mensuales 2+4</p>
 	    			<p class="save">Ahorre $228</p>
 	    		</th>
 	    		<th>
+	    			<span class="label">Suscripción mensual</span>
 	    			<h3>Paquete Premium Noc Noc</h3>
-	    			<p>$169 mensuales 5+4</p>
+	    			<p>$149 mensuales 5+4</p>
 	    			<p class="save">Ahorre $318</p>
 	    			<!-- <p class="promo">Our most valuable package!</p> -->
 	    		</th>
 	    		<th>
+	    			<span class="label">Suscripción mensual</span>
 	    			<h3>Paquete Super Premium Noc Noc Noc</h3>
-	    			<p>$189 mensuales 10+4</p>
+	    			<p>$169 mensuales 10+4</p>
 	    			<p class="save">Ahorre $488</p>
 	    		</th>
 	    	</tr>
@@ -50,9 +53,9 @@ function noc_presale_table_shortcode($atts) {
 
 	    <tfoot>
 	    	<tr>
-	    		<td><a href="/orden-de-compra/?paquete=PreventaBasico69USD">Comprar</a></td>
-	    		<td><a href="/orden-de-compra/?paquete=PreventaPremium169USD">Comprar</a></td>
-	    		<td><a href="/orden-de-compra/?paquete=PreventaSuperPremium189USD">Comprar</a></td>
+	    		<td><a href="/orden-de-suscripcion/?paquete=PreventaBasico69USD">Adquirir Suscripción</a></td>
+	    		<td><a href="/orden-de-suscripcion/?paquete=PreventaPremium169USD">Adquirir Suscripción</a></td>
+	    		<td><a href="/orden-de-suscripcion/?paquete=PreventaSuperPremium189USD">Adquirir Suscripción</a></td>
 	    	</tr>
 	    </tfoot>
 
@@ -63,7 +66,7 @@ function noc_presale_table_shortcode($atts) {
 		    		<ul>
 						<li>Participación en la guía digital Nocnocquienes.com en dos tableros de su elección (marzo 2018)</li>
 						<li>Participación en Nocnoc en 4 tableros gratis (marzo 2018)</li>
-						<li>1 publicación mensual en FB de Nocnoc por 4 meses (diciembre, enero, febrero, marzo)</li>
+						<li>1 publicación mensual en FB de Nocnoc por 3 meses</li>
 						<li>Llave plata para participar en las terceras posiciones de cada tablero. </li>
 						<li><a href="/paquetes/">Más información sobre los paquetes</a></li>
 
@@ -74,8 +77,7 @@ function noc_presale_table_shortcode($atts) {
 		    		<ul>
 						<li>Participación en Nocnocquienes.com en cinco tableros de su elección (marzo 2018)</li>
 						<li>Participación en Nocnocquienes.com en 4 tableros gratis (marzo 2018)</li>
-						<li>2 publicaciones mensuales en FB de Nocnoc por 4 meses (diciembre, enero, febrero, marzo)</li>
-						<li>1 artículo patrocinado en FB.
+						<li>2 publicaciones mensuales en FB de Nocnoc por 3 meses</li>
 						<li>Llave oro para participar en las segundas posiciones de cada tablero.</li>
 						<li><a href="/paquetes/">Más información sobre los paquetes</a></li>
 
@@ -86,8 +88,7 @@ function noc_presale_table_shortcode($atts) {
 		    		<ul>
 						<li>Participación en Nocnoc en diez tableros de su elección (marzo 2018)</li>
 						<li>Participación en Nocnoc en 4 tableros gratis (marzo 2018)</li>
-						<li>4 publicaciones mensuales en FB de Nocnoc por 3 meses (diciembre, enero, febrero, marzo)</li>
-						<li>2 artículos patrocinados en FB.</li>
+						<li>4 publicaciones mensuales en FB de Nocnoc por 3 meses</li>
 						<li>Llave platinum para participar en las primeras posiciones de cada tablero.</li>
 						<li><a href="/paquetes/">Más información sobre los paquetes</a></li>
 
@@ -123,17 +124,20 @@ function noc_pricing_table_shortcode($atts) {
 	    	<tr>
 	    		<th>&nbsp;</th>
 	    		<th>
+	    			<span class="label">Suscripción mensual</span>
 	    			<h3>Paquete Básico Noc</h3>
 	    			<p>$69 por mes</p>
 	    		</th>
 	    		<th>
+	    			<span class="label">Suscripción mensual</span>
 	    			<h3>Paquete Básico Noc Noc</h3>
-	    			<p>$169 por mes</p>
+	    			<p>$149 por mes</p>
 	    			<!-- <p class="promo">Our most valuable package!</p> -->
 	    		</th>
 	    		<th>
+	    			<span class="label">Suscripción mensual</span>
 	    			<h3>Paquete Premium Noc Noc Noc</h3>
-	    			<p>$189 por mes</p>
+	    			<p>$169 por mes</p>
 	    		</th>
 	    	</tr>
 	    </thead>
@@ -141,9 +145,9 @@ function noc_pricing_table_shortcode($atts) {
 	    <tfoot>
 	    	<tr>
 	    		<th>&nbsp;</th>
-	    		<td><a href="/orden-de-compra/?paquete=PreventaBasico69USD">Comprar</a></td>
-	    		<td><a href="/orden-de-compra/?paquete=PreventaPremium169USD">Comprar</a></td>
-	    		<td><a href="/orden-de-compra/?paquete=PreventaSuperPremium189USD">Comprar</a></td>
+	    		<td><a href="/orden-de-suscripcion/?paquete=PreventaBasico69USD">Adquirir Suscripción</a></td>
+	    		<td><a href="/orden-de-suscripcion/?paquete=PreventaPremium169USD">Adquirir Suscripción</a></td>
+	    		<td><a href="/orden-de-suscripcion/?paquete=PreventaSuperPremium189USD">Adquirir Suscripción</a></td>
 	    	</tr>
 	    </tfoot>
 
@@ -171,7 +175,7 @@ function noc_pricing_table_shortcode($atts) {
 		    		<br /><a href="#desarrollador">Más información</a>
 		    	</th>
 		    	<td><i class="fa fa-times" aria-hidden="true"></i></td>
-	    		<td><i class="fa fa-times" aria-hidden="true"></i></td>
+	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
 	    		<td><i class="fa fa-check" aria-hidden="true"></i></td>
 	    	</tr>
 
